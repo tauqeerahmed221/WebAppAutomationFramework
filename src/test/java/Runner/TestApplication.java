@@ -9,7 +9,7 @@ import utilities.ExtentManager;
 import utilities.ExtentTestManager;
 
 @CucumberOptions(features = {//"src/test/java/feature_IIS" , 
-		"src/test/java"},
+		"src/test/java/features/Lunademo.feature"},
                 glue = "stepdefinitions",
                 //monochrome=false, //to make steps in color
                 plugin = { "pretty",
@@ -18,7 +18,7 @@ import utilities.ExtentTestManager;
                //dryRun = true //to chek compilation errors                                      
                , tags=  //"@AT_IFC_019_01_DBQ or @AT_IFC_019_DBQ or @AT_IFC_020_01_DBQ or @AT_IFC_020_DBQ"
             		   //"@IslamicFinanceCalculator"
-            		   "@AT_RA_01"
+            		   "@tag"
 )
 public class TestApplication extends AbstractTestNGCucumberTests {
 	/*.
