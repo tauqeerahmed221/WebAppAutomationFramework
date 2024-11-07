@@ -101,7 +101,7 @@ public class Luna_Steps {
 
 	    for (int i = 0; i < 500 ; i++) {
 	    	try {
-	    		lumaTestObj.getEmail_Input().sendKeys("abc233@gmail.com", Keys.TAB);
+	    		lumaTestObj.getEmail_Input().sendKeys("abc2338989@gmail.com", Keys.TAB);
 	    		break;
 			} catch (Exception e) {
 				Assert.fail(e.getMessage());
@@ -206,7 +206,7 @@ public class Luna_Steps {
 
 	    for (int i = 0; i < 500 ; i++) {
 	    	try {
-	    		lumaTestObj.signInEmail_Input().sendKeys("abc233@gmail.com", Keys.TAB);     
+	    		lumaTestObj.signInEmail_Input().sendKeys("abc2338989@gmail.com", Keys.TAB);     
 	    		break;
 			} catch (Exception e) {
 				Assert.fail(e.getMessage());
